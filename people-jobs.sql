@@ -21,18 +21,18 @@ insert into people (id, first_name, last_name, email, country, ip_address) value
 
 create table jobs (
   id INT,
-  id_client INT,
+  id_people INT,
   name VARCHAR(50)
 );
 
-insert into jobs (id, id_client, name) values (1, 1, 'Dev');
-insert into jobs (id, id_client, name) values (2, 2, 'Dev');
-insert into jobs (id, id_client, name) values (3, 3, 'Police Offices');
-insert into jobs (id, id_client, name) values (4, 4, 'Chef');
-insert into jobs (id, id_client, name) values (5, 5, 'Teacher');
-insert into jobs (id, id_client, name) values (6, 6, 'Musician');
-insert into jobs (id, id_client, name) values (7, 7, 'Doctor');
-insert into jobs (id, id_client, name) values (8, 8, 'Chef');
-insert into jobs (id, id_client, name) values (9, 9, 'No job');
-insert into jobs (id, id_client, name) values (10, 10, 'Architect');
-insert into jobs (id, id_client, name) values (11, 11, 'No job');
+insert into jobs (id, id_people, name) values (1, 1, 'Dev');
+insert into jobs (id, id_people, name) values (2, 2, 'Dev');
+insert into jobs (id, id_people, name) values (3, 3, 'Police Offices');
+insert into jobs (id, id_people, name) values (4, 4, 'Chef');
+insert into jobs (id, id_people, name) values (5, 5, 'Teacher');
+insert into jobs (id, id_people, name) values (6, 6, 'Musician');
+insert into jobs (id, id_people, name) values (7, 7, 'Doctor');
+insert into jobs (id, id_people, name) values (8, 8, 'Chef');
+insert into jobs (id, id_people, name) values (9, 9, 'No job');
+insert into jobs (id, id_people, name) values (10, 10, 'Architect');
+insert into jobs (id, id_people, name) values (11, 11, 'No job');
